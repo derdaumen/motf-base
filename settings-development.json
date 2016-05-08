@@ -1,4 +1,12 @@
 {
-  "public": {},
+  "public": {
+    "domain": "localhost:3000",
+    "APP_NAME": "Memories of the Future",
+    "APP_DESCRIPTION": "Memories of the Future guides people in writing scenarios (stories) about their future, and helps them to make better decisions in the present.",
+    "loginState": {
+      "domain": ".localhost:3000",
+      "cookieName": "motfdevloginstate"
+    }
+  },
   "private": {}
 }
