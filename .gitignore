@@ -1,6 +1,14 @@
+.meteor/local
+.idea
 .DS_Store
+
 settings-development.json
-settings-production.json
+settings-motf-production.json
+settings-europe2034-production.json
+settings-motf-staging.json
+settings-europe2034-staging.json
 npm-debug.log
 
 node_modules
+
+*.[oa]
