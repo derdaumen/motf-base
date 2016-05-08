@@ -1,17 +1,4 @@
-# The Meteor Chef - Base
-A starting point for Meteor apps.
+# Memories of the Future
+Memories of the Future guides people in writing scenarios (stories) about their future, and helps them to make better decisions in the present.
 
-<table>
-  <tbody>
-    <tr>
-      <th>Base Version</th>
-      <td>v4.1.0</td>
-    </tr>
-    <tr>
-      <th>Meteor Version</th>
-      <td>v1.3.2.4</td>
-    </tr>
-  </tbody>
-</table>
-
-[Read the Documentation](http://themeteorchef.com/base)
+Build using the [base boilerplate](http://themeteorchef.com/base) by The Meteor Chef.
