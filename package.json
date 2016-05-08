@@ -1,14 +1,16 @@
 {
-  "name": "application-name",
-  "version": "1.0.0",
-  "description": "Application description.",
+  "name": "memories-of-the-future",
+  "version": "0.1.0",
+  "description": "Memories of the Future assist people to write scenarios about a future they are interested in and use these to make better decisions in the present.",
   "scripts": {
     "start": "meteor --settings settings-development.json",
     "test": "meteor test --driver-package practicalmeteor:mocha --port 5000",
     "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
     "chimp-test": "chimp --ddp=http://localhost:3000 --mocha --path=tests",
-    "staging": "meteor deploy staging.meteor.com --settings settings-development.json",
-    "production": "meteor deploy production.meteor.com --settings settings-production.json"
+    "staging": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy staging.memoriesofthefuture.org --settings settings-motf-staging.json",
+    "production": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy app.memoriesofthefuture.org --settings settings-motf-production.json",
+    "staging_eu": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy staging.europe2034.org --settings settings-europe2034-staging.json",
+    "production_eu": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy app.europe2034.org --settings settings-europe2034-production.json"
   },
   "devDependencies": {
     "chimp": "^0.33.1",
